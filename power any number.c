@@ -8,6 +8,7 @@ int main()
     printf("Enter a power :");
     scanf("%f",&power);
 
+    printf("%.2f ^ %.2f\n",number,power);
     value=pow(number,power);
     printf("Value is = %.2f\n",value);
 
